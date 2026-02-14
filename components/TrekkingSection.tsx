@@ -135,7 +135,7 @@ const TrekkingSection: React.FC = () => {
                       : 'border-zinc-100 hover:border-zinc-200 card-shadow'
                   }`}
                 >
-                  <div className="flex justify-between items-center gap-4">
+                  <div className="block justify-between items-center gap-4">
                     <div className="flex items-center gap-4">
                       <div
                         className={`w-12 h-12 rounded-2xl flex items-center justify-center ${
