@@ -1,0 +1,7 @@
+{
+  "name": "Mount Batur Adventure Tour",
+  "description": "Professional tour and travel website specializing in Mount Batur sunrise trekking and jeep tours in Bali.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
