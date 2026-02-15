@@ -256,19 +256,17 @@ export const TESTIMONIALS: TestimonialData[] = [
 // jeepTimelineData.ts
 export const JEEP_PACKAGES_TIME = [
   {
-    id: 'paket-c',
-    title: 'Paket C – Sunrise, Black Lava & Black Sand',
-    subtitle: 'Complete Jeep Adventure',
+    id: 'paket-a',
+    title: 'Paket A – Sunrise Only',
+    subtitle: 'Short Jeep Sunrise Trip',
     timeline: [
-      { time: '02.00 – 03.00', text: 'Pick up at hotel (depending on your location)', icon: '🚗' },
+      { time: '02.00 – 03.00', text: 'Pick up at hotel', icon: '🚗' },
       { time: '04.00', text: 'Start with Jeep', icon: '🚙' },
       { time: '05.30', text: 'Arrive at sunrise point', icon: '🌄' },
       { time: '06.00', text: 'Breakfast with sunrise', icon: '☕' },
       { time: '07.00', text: 'Relax at Jeep area', icon: '✨' },
-      { time: '07.30', text: 'Start to Black Lava', icon: '🌋' },
-      { time: '08.30', text: 'Explore Black Sand', icon: '🏜️' },
-      { time: '09.30', text: 'Return to hotel', icon: '🏨' },
-      { time: '10.30 – 11.30', text: 'Arrive at hotel', icon: '✅' },
+      { time: '08.30', text: 'Return to hotel', icon: '🏨' },
+      { time: '10.00 – 11.00', text: 'Arrive at hotel', icon: '✅' },
     ],
   },
   {
@@ -287,19 +285,22 @@ export const JEEP_PACKAGES_TIME = [
     ],
   },
   {
-    id: 'paket-a',
-    title: 'Paket A – Sunrise Only',
-    subtitle: 'Short Jeep Sunrise Trip',
+    id: 'paket-c',
+    title: 'Paket C – Sunrise, Black Lava & Black Sand',
+    subtitle: 'Complete Jeep Adventure',
     timeline: [
-      { time: '02.00 – 03.00', text: 'Pick up at hotel', icon: '🚗' },
+      { time: '02.00 – 03.00', text: 'Pick up at hotel (depending on your location)', icon: '🚗' },
       { time: '04.00', text: 'Start with Jeep', icon: '🚙' },
       { time: '05.30', text: 'Arrive at sunrise point', icon: '🌄' },
       { time: '06.00', text: 'Breakfast with sunrise', icon: '☕' },
       { time: '07.00', text: 'Relax at Jeep area', icon: '✨' },
-      { time: '08.30', text: 'Return to hotel', icon: '🏨' },
-      { time: '10.00 – 11.00', text: 'Arrive at hotel', icon: '✅' },
+      { time: '07.30', text: 'Start to Black Lava', icon: '🌋' },
+      { time: '08.30', text: 'Explore Black Sand', icon: '🏜️' },
+      { time: '09.30', text: 'Return to hotel', icon: '🏨' },
+      { time: '10.30 – 11.30', text: 'Arrive at hotel', icon: '✅' },
     ],
   },
+  
   {
     id: 'simple',
     title: 'Simple Jeep Sunrise Trip',
