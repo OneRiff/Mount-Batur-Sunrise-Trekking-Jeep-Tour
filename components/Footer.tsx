@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { Instagram, Facebook, MessageSquare, Clock, Languages, Compass, ArrowUp } from 'lucide-react';
+import { Instagram, Facebook,Music2, MessageSquare, Clock, Languages, Compass, ArrowUp } from 'lucide-react';
 import { WHATSAPP_NUMBER, WHATSAPP_MESSAGE } from '../constants';
 
 const Footer: React.FC = () => {
@@ -35,11 +35,14 @@ const Footer: React.FC = () => {
               Professional mountain guide services in Bali. Specializing in private trekking and jeep tours to ensure the best experience for our guests.
             </p>
             <div className="flex gap-4">
-              <a href="#" className="w-12 h-12 bg-white border border-zinc-200 rounded-full flex items-center justify-center hover:bg-orange-500 hover:text-white transition-all shadow-sm">
+              <a href="https://www.instagram.com/wayan_mount_batur_guide" className="w-12 h-12 bg-white border border-zinc-200 rounded-full flex items-center justify-center hover:bg-orange-500 hover:text-white transition-all shadow-sm">
                 <Instagram className="w-5 h-5" />
               </a>
-              <a href="#" className="w-12 h-12 bg-white border border-zinc-200 rounded-full flex items-center justify-center hover:bg-orange-500 hover:text-white transition-all shadow-sm">
+              <a href="https://web.facebook.com/profile.php?id=61583108635862&rdid=PliZsuQVJv07btNj&share_url=https%3A%2F%2Fweb.facebook.com%2Fshare%2F1KpZGSYpQz%3F_rdc%3D1%26_rdr" className="w-12 h-12 bg-white border border-zinc-200 rounded-full flex items-center justify-center hover:bg-orange-500 hover:text-white transition-all shadow-sm">
                 <Facebook className="w-5 h-5" />
+              </a>
+               <a href="https://www.tiktok.com/@mountbaturguide1?_r=1&_t=zs-93dtlitefeq" className="w-12 h-12 bg-white border border-zinc-200 rounded-full flex items-center justify-center hover:bg-orange-500 hover:text-white transition-all shadow-sm">
+                <Music2 className="w-5 h-5" />
               </a>
             </div>
           </div>

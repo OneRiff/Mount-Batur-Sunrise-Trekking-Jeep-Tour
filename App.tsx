@@ -10,6 +10,7 @@ import MapSection from './components/MapSection';
 import Footer from './components/Footer';
 import WhatsAppFloat from './components/WhatsAppFloat';
 import OptionalExperienceSection from './components/OptionalExperienceSection';
+import TrekkingTimeline from './components/TrekkingTimeline';
 
 const App: React.FC = () => {
   return (
@@ -17,6 +18,7 @@ const App: React.FC = () => {
       <Navbar />
       <Hero />
       <TrekkingSection />
+      <TrekkingTimeline/>
       <JeepSection />
       <OptionalExperienceSection/>
       <Gallery />

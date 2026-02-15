@@ -12,9 +12,8 @@ export const WHATSAPP_MESSAGE = encodeURIComponent(
    HERO IMAGES
 ===================== */
 export const HERO_IMAGES = [
-  './hero1.jpeg',
-  './hero2.jpeg',
-  './hero3.jpeg',
+  './herosection1.jpeg',
+  './herosection2.jpeg'
 ];
 
 /* =====================
@@ -45,8 +44,8 @@ export const HOT_SPRING_IMAGES = [
    TREKKING PRICES
 ===================== */
 export const TREKKING_PRICES: TrekkingPrice[] = [
-  { pax: '1 Person', price: 'IDR 1.100.000' },
-  { pax: '2 People', price: 'IDR 550.000 / pax' },
+  { pax: '1 Person', price: 'IDR 1.200.000' },
+  { pax: '2 People', price: 'IDR 650.000 / pax' },
   { pax: '3 People', price: 'IDR 500.000 / pax' },
   { pax: '4 People', price: 'IDR 400.000 / pax' },
   { pax: '5–6 People', price: 'IDR 350.000 / pax' },
@@ -71,8 +70,8 @@ export const TREKKING_EXCLUDED = [
   'Tips for driver or guide',
 ];
 
-export const TREKKING_NOTE =
-  'Additional tea or coffee will be charged IDR 15.000 / pax';
+// export const TREKKING_NOTE =
+//   'Additional tea or coffee will be charged IDR 15.000 / pax';
 
 /* =====================
    JEEP PACKAGES
@@ -89,7 +88,6 @@ export const JEEP_PACKAGES: JeepPackage[] = [
       './sunrise-online4.jpeg',
       './sunrise-online5.jpeg',
       './sunrise-online6.jpeg',
-      './sunrise-online7.jpeg',
       './sunrise-online8.jpeg',
       './sunrise-online9.jpeg',
       './sunrise-online10.jpeg',

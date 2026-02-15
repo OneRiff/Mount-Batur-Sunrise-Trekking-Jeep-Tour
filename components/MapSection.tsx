@@ -19,11 +19,11 @@ const MapSection: React.FC = () => {
             <div className="bg-zinc-50 p-8 rounded-3xl border-l-4 border-orange-500 shadow-sm border border-zinc-100">
               <h5 className="font-bold text-xl mb-2 text-zinc-900 flex items-center gap-2">
                 <Navigation className="w-5 h-5 text-orange-500" />
-                Mount Batur, Kintamani
+                Your Guide To Mount Batur
               </h5>
-              <p className="text-zinc-500 text-sm mb-4">Jl. Pendakian Gn. Batur, Kintamani, Bali, Indonesia</p>
+              <p className="text-zinc-500 text-sm mb-4">Songan, Kec. Kintamani, Kabupaten Bangli, Bali 80652</p>
               <a 
-                href="https://maps.app.goo.gl/aCmRteyBpJmNicuR9" 
+                href="https://maps.app.goo.gl/AzKeVRSmdgu9yw3b6" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="text-orange-500 font-bold text-sm hover:underline"
@@ -34,7 +34,7 @@ const MapSection: React.FC = () => {
           </div>
           <div className="md:w-2/3 h-[450px] rounded-[2.5rem] overflow-hidden shadow-2xl border border-zinc-100">
             <iframe 
-              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d31589.022392568902!2d115.3774944!3d-8.2401299!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd1f100449aa437%3A0x23f90bea24f65957!2sMount%20Batur%20Sunrise%20Trekking!5e0!3m2!1sid!2sid!4v1771086619403!5m2!1sid!2sid"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3948.394199886742!2d115.38591960000001!3d-8.263503!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd1f70fbf3ef495%3A0x8aa52de5e33a0aa!2sYour%20Guide%20To%20Mount%20Batur!5e0!3m2!1sid!2sid!4v1771130449744!5m2!1sid!2sid"
               width="100%" 
               height="100%" 
               style={{ border: 0 }} 

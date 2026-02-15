@@ -5,7 +5,7 @@ import {
   TREKKING_IMAGES,
   TREKKING_INCLUDED,
   TREKKING_EXCLUDED,
-  TREKKING_NOTE,
+  // TREKKING_NOTE,
   WHATSAPP_NUMBER,
 } from '../constants';
 import ImageSlider from './ImageSlider';
@@ -93,14 +93,14 @@ const TrekkingSection: React.FC = () => {
             </div>
 
             {/* NOTE */}
-            <div className="flex items-start gap-4 p-6 bg-orange-500/5 border border-orange-500/10 rounded-3xl">
+            {/* <div className="flex items-start gap-4 p-6 bg-orange-500/5 border border-orange-500/10 rounded-3xl">
               <div className="w-10 h-10 bg-orange-500/10 rounded-full flex items-center justify-center shrink-0">
                 <Info className="text-orange-500 w-6 h-6" />
               </div>
               <p className="text-sm text-zinc-700 leading-relaxed font-medium italic">
                 <strong>Note:</strong> {TREKKING_NOTE}
               </p>
-            </div>
+            </div> */}
 
             {/* CTA */}
             <div ref={bookingRef} className="pt-6">
