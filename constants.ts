@@ -12,8 +12,9 @@ export const WHATSAPP_MESSAGE = encodeURIComponent(
    HERO IMAGES
 ===================== */
 export const HERO_IMAGES = [
-  './herosection1.jpeg',
-  './herosection2.jpeg'
+  './herosection2.jpeg',
+  './herosectionimg1.jpeg',
+  './herosectionimg2.jpeg'
 ];
 
 /* =====================
