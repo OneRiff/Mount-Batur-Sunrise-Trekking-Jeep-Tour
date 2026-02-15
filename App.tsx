@@ -11,6 +11,7 @@ import Footer from './components/Footer';
 import WhatsAppFloat from './components/WhatsAppFloat';
 import OptionalExperienceSection from './components/OptionalExperienceSection';
 import TrekkingTimeline from './components/TrekkingTimeline';
+import JeepTimelineSection from './components/JeepTimelineSection';
 
 const App: React.FC = () => {
   return (
@@ -20,6 +21,7 @@ const App: React.FC = () => {
       <TrekkingSection />
       <TrekkingTimeline/>
       <JeepSection />
+      <JeepTimelineSection/>
       <OptionalExperienceSection/>
       <Gallery />
       <Testimonials />
