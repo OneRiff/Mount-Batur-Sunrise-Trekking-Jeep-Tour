@@ -300,20 +300,5 @@ export const JEEP_PACKAGES_TIME = [
       { time: '10.30 – 11.30', text: 'Arrive at hotel', icon: '✅' },
     ],
   },
-  
-  {
-    id: 'simple',
-    title: 'Simple Jeep Sunrise Trip',
-    subtitle: 'Light & Relaxed',
-    timeline: [
-      { time: '02.00 – 03.00', text: 'Pick up at hotel', icon: '🚗' },
-      { time: '04.00', text: 'Start with Jeep', icon: '🚙' },
-      { time: '05.30', text: 'Arrive at sunrise point', icon: '🌄' },
-      { time: '06.00', text: 'Breakfast with sunrise', icon: '☕' },
-      { time: '07.00', text: 'Relax at Jeep area', icon: '✨' },
-      { time: '08.00', text: 'Return to hotel', icon: '🏨' },
-      { time: '09.00 – 10.00', text: 'Arrive at hotel', icon: '✅' },
-    ],
-  },
 ]
 
